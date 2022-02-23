@@ -8,7 +8,7 @@ unauthorized users can edit the grub boot configuration and boot as root. After 
 
 ### <mark style="color:blue;">Exploitation:</mark>
 
-when grub options are displayed press `‘e’`. Then you will land in a screen such as this. Now you must go to the kernal line as shown below and add in:
+when grub options are displayed press `‘e’`. Then you will land in a screen such as this. Now you must go to the kernel line as shown below and add in:
 
 ```
 'init=bin/bash'
